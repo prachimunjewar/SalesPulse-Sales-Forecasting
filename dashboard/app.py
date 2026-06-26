@@ -626,8 +626,8 @@ with col6:
                       color_discrete_sequence=[BLUE, GREEN, AMBER, VIOLET])
     fig_ship.update_traces(textposition="outside", textinfo="percent+label",
                            textfont_size=10)
-    fig_ship.update_layout(**CHART_THEME, height=200, showlegend=False,
-                           margin=dict(t=20, b=20, l=20, r=20))
+    fig_ship.update_layout(**CHART_THEME, height=200, showlegend=False)
+    fig_ship.update_layout(margin=dict(t=20, b=20, l=20, r=20))
     st.markdown('<div style="margin-top:16px; font-size:0.7rem; font-weight:700; color:#94a3b8; letter-spacing:0.08em; text-transform:uppercase;">Shipping Mix</div>', unsafe_allow_html=True)
     st.plotly_chart(fig_ship, use_container_width=True)
 
