@@ -3,6 +3,9 @@
 > Retail sales forecasting using Prophet & ARIMA, SQL analytics, and an interactive Streamlit dashboard.
 
 ---
+# Live Demo
+
+https://salespulse-sales-forecasting-d7xetv8rnqprlpwhksgvzb.streamlit.app/
 
 ## 🎯 Business Problem
 Retail businesses lose revenue by over/under-stocking and missing seasonal demand shifts.
@@ -93,8 +96,3 @@ python notebooks/05_model_evaluation.py
 ```bash
 streamlit run dashboard/app.py
 ```
-
----
-
-## 📄 License
-MIT — free for portfolio use.
